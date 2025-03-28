@@ -1,0 +1,26 @@
+Original Pattern,Normalized Label,Description
+"ExecutedCommand, X ",ExecutedCommand:X,All command executions initiated by the user is executed.
+"ExecutingCommand, X",ExecutingCommand:X,All command executions initiated by the user is executing.
+"ControllerConnectionState, {UUID}",ControllerConnectionState,Controller connected or disconnected.
+AddinLoaded / AddinAdded / AddinLoading,Addin:X,Loaded or added RobotStudio add-ins.
+"NetworkAdapterChange, <Adapter>",NetworkAdapterChange,Network adapter state change.
+"ImportedMechanism, <ModelName>",ImportedMechanism,Imported robot or tool mechanisms.
+"ActiveWindowChanged, <Window|X>",ActiveWindowChanged:X,"Change in active UI window, and show the next interaction."
+"RibbonTabChanged, <Tab>",RibbonTabChanged,Switch between top ribbon tabs.
+"InstallDistributionPackage, <Package>",InstallDistributionPackage,Installed RobotStudio extensions.
+StartedVC / StartingVC / VCAffinity,VirtualControllerEvent,Events related to Virtual Controller startup.
+"Error, <Message>",Error,System or plugin error logs.
+"SystemEvent, <Event>",SystemEvent,System-level event like suspend/resume.
+"UserLogMessage, <Message>",UserLogMessage,User-visible logs or warnings.
+"UIThreadWatchdog, ...",UIThreadWatchdog,UI thread performance alerts.
+"ApiInfo, <Detail>",ApiInfo,Messages from API or plugin status.
+"ControllerState, ...",ControllerState,State changes in robot controller.
+"StudioAppFramework, ...",StudioAppFramework,Warnings or errors in RobotStudio’s GUI framework.
+"RobApiSubscribeError, ...",RobApiSubscribeError,Robot API subscription failure.
+"Exception, ...",Exception,Unhandled exceptions or crashes.
+"VR, ...",VR,Virtual Reality interaction logs.
+"PaintApplicator, ...",PaintApplicator,Warnings related to paint or spray tools.
+"ExportGeometry, ...",ExportGeometry,Exporting CAD or geometry data.
+"ImportingCADFile, <Type>",ImportingCADFile,Importing files from external CAD tools.
+"StationLoaded, <ID>",StationLoaded,RobotStudio station/project loaded.
+"ActivatedPP, <PowerPac>",ActivatedPP,"PowerPac activated (e.g. ArcWeld, Picking)."
